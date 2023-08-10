@@ -1,0 +1,99 @@
+<!-- document type is html 5 version  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-size: medium;">EVENT REGISTRATION</title>
+</head>
+<!-- inline styling  for backgorund color -->
+
+<body style="background-color: rgb(218, 241, 247);">
+
+    <!-- The <fieldset> tag is used to group related elements in a form.
+        The <fieldset> tag draws a box around the related elements. -->
+    <fieldset>
+
+        <!-- The <legend> tag defines a caption for the <fieldset> element. -->
+        <legend>Event registration</legend>
+
+        <!-- An HTML form is used to collect user input. The user input is most often sent to a server for processing. -->
+
+        <form>
+            <!-- The <label> element defines a label for several form elements. 
+            The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+         -->
+
+            <label for="name">Name:</label>
+            <!-- input element 
+            input type can be text,checkbox,button,date etc
+            placeholder when user can see what should be displayed as a input so it gives the hint to user 
+            id should be unique
+         -->
+            <input type="text" id="name" placeholder="write your name">
+            <br />
+            <br />
+
+            <label for="phone no">Phone no:</label>
+            <input type="text" id="phone no" placeholder="9811009988">
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="xyz@gmail.com">
+            <br />
+            <br />
+            <label for="Occupation">Occupation:</label>
+            <input type="text" id="Occupation" placeholder="eg-teacher">
+            <br />
+            <br />
+            <label for="Interest">Interest:</label>
+            <input type="text" id="Interest" placeholder=" eg-dance">
+            <br />
+            <br />
+
+            <h4>Topic of Interest</h4>
+            <!-- The <option> element defines an option that can be selected.
+             By default, the first item in the drop-down list is selected.
+             To define a pre-selected option, add the selected attribute to the option -->
+            <select name="topic of interest" id="your interest baby">
+                <option value="music">music</option>
+                <option value="dance">dance</option>
+                <option value="reading books">chetan bhagat</option>
+                <option value="binge watching netflix">netflix</option>
+            </select>
+
+            <br />
+            <h4>Coding Interest</h4>
+            <label for="html">html</label>
+            <input type="checkbox" name="checkbox" id="html">
+            <label for="css">css:</label>
+            <input type="checkbox" name="checkbox" id="css">
+            <label for="javascript">javascript:</label>
+            <input type="checkbox" name="checkbox" id="javascript">
+            <br />
+            <br />
+            <label for="comment" style="font-size: large;"> comment</label>
+            <br />
+            <!-- The <textarea> tag defines a multi-line text input control.
+
+    The <textarea> element is often used in a form, to collect user inputs like comments or reviews -->
+
+            <textarea name="comment" id="comment" cols="30" rows="6">
+                
+            </textarea>
+
+
+            <input type="submit" value="submit now">
+
+
+
+
+
+        </form>
+
+    </fieldset>
+
+</body>
+
+</html>
